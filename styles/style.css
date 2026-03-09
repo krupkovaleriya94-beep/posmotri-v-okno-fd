@@ -58,7 +58,6 @@ ol {
   align-items: end;
   gap: 30px;
   width: 1140px;
-  height: 534px;
 }
 
 .result {
@@ -119,7 +118,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  height: 399px;
+  height: 298px;
   overflow-y: auto;
   position: relative;
  
@@ -160,10 +159,6 @@ ol {
 }
 
 .content__accent {
-  font-weight: 700;
-  font-size: 75px;
-  line-height: 70px;
-  text-transform: uppercase;
   color: #545050;
 }
 
@@ -176,6 +171,7 @@ ol {
 }
 
 .content__video-card-title {
+  font-family: "Oswald", sans-serif; 
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
@@ -285,13 +281,11 @@ ol {
 
 .search-form__submit-button {
   width: 194px;
-  height: 34px;
   align-self: end;
 }
 
 .more-button {
   inline-size: 100%;
-  height: 34px;
   flex-shrink: 0;
   
 }
@@ -337,5 +331,4 @@ ol {
   padding-left: 3px;
   padding-right: 3px;
   width: 390px;
-  height: 103px;
 }
